@@ -5,7 +5,7 @@ import { downloadPdf } from "../utils/pdf.js";
 import { saveStoredFile } from "../utils/fileStorage.js";
 import { validateUpload } from "../utils/fileUploads.js";
 
-const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const weekDays = ["Monday1", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 const eventTypes = ["Academic", "School event", "Examination", "Holiday", "Activity", "Meeting", "Deadline"];
 
 function dateKey(date) {
